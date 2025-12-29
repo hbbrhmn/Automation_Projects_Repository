@@ -1,0 +1,49 @@
+{
+  "users": {
+    "conceptor": {
+      "email": "user.prime1@pertamina.com",
+      "password": "Onecode@2025"
+    },
+    "coordinator": {
+      "email": "manager.testing2@pertamina.com",
+      "password": "Pertamina#9999"
+    },
+    "assetholder": {
+      "email": "user.prime2@pertamina.com",
+      "password": "Onecode@2025"
+    },
+    "keuangan": {
+      "email": "creator2.predict@pertamina.com",
+      "password": "Onecode@2025"
+    },
+    "hssesafetyandsecurity": {
+      "email": "creator3.predict@pertamina.com",
+      "password": "Onecode@2025"
+    },
+    "ahli": {
+      "email": "tkdn22@pertamina.com",
+      "password": "Onecode@2025"
+    },
+    "assetholderowner": {
+      "email": "tkdn17@pertamina.com",
+      "password": "Onecode@2025"
+    }
+  },
+  "draftcekfisik": {
+    "title": "Automated Draft",
+    "location": "BSD",
+    "direktorat": "Keuangan",
+    "assetnumber":"500016232_0",
+    "keterangan": "Testing Keterangan",
+    "filepath": "C:\\\\Users\\\\USER\\\\Downloads\\\\sample_generated.jpg",
+    "assetholder": "user.prime2@pertamina.com",
+    "keuangan": "creator2.predict@pertamina.com",
+    "hssesafetyandsecurity":"creator3.predict@pertamina.com",
+    "ahli": "tkdn22@pertamina.com",
+    "assetholderowner": "tkdn17@pertamina.com"
+  },
+  "approvalremark": {
+    "approveremark" : "diterima" ,
+    "reviseremark" : "direvisi"
+  }
+}

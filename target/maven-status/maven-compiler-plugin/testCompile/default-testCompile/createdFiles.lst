@@ -1,0 +1,6 @@
+steps\LoginSteps.class
+runner\ParadizeCekFisikRegressionRunner.class
+steps\SignDocumentCekFisikSteps.class
+steps\DraftParadizeSteps.class
+hooks\Hooks.class
+steps\ApprovalPardizeSteps.class

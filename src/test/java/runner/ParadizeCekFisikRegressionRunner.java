@@ -1,0 +1,26 @@
+package runner;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+        features = {
+                "src/test/resources/features/paradize/cekfisik/DraftParadize.feature"
+                //"src/test/resources/features/paradize/cekfisik/ApprovalCekFisik.feature"
+                //"src/test/resources/features/paradize/cekfisik/SignDocumentCekFisik.feature"
+        },
+        glue = {"steps", "hooks"},
+        plugin = {
+                "pretty",
+                "html:target/cucumber-reports/report.html",
+                "json:target/cucumber-reports/report.json"
+        },
+        monochrome = true,
+        publish = false
+)
+
+public class ParadizeCekFisikRegressionRunner {
+
+}
