@@ -4,37 +4,31 @@ Feature: Sign Document
     Given user open "paradize" site
 
   Scenario: Fungsi sign document cek fisik oleh semua approver
-    When user login as "approver assetholder"
+    When user login as "assetholder"
     And access cek fisik
     And choose list with status submitted
     Then sign the document
     And logout
 
-    When user login as "approver keuangan"
+    When user login as "keuangan"
     And access cek fisik
     And choose list with status submitted
     Then sign the document
     And logout
 
-    When user login as "approver hssesf"
+    When user login as "hssesafetyandsecurity"
     And access cek fisik
     And choose list with status submitted
     Then sign the document
     And logout
 
-    When user login as "approver ahli"
+    When user login as "ahli"
     And access cek fisik
     And choose list with status submitted
     Then sign the document
     And logout
 
-    When user login as "approver hssesc"
-    And access cek fisik
-    And choose list with status submitted
-    Then sign the document
-    And logout
-
-    When user login as "approver asset holder owner"
+    When user login as "assetholderowner"
     And access cek fisik
     And choose list with status submitted
     Then sign the document

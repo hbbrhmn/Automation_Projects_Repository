@@ -1,4 +1,4 @@
-package locators;
+package locators.paradize;
 
 import org.openqa.selenium.By;
 

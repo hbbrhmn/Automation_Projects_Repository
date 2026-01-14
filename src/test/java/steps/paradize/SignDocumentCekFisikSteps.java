@@ -1,4 +1,4 @@
-package steps;
+package steps.paradize;
 
 public class SignDocumentCekFisikSteps {
 

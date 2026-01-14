@@ -1,7 +1,7 @@
-package pages;
+package pages.paradize;
 
 import base.BasePage;
-import locators.DraftParadizeLocators;
+import locators.paradize.DraftParadizeLocators;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,7 +14,6 @@ public class DraftPageParadize extends BasePage {
 
     //Draft cek fisik
     public void fillHeader(String title, String address) {
-        click(DraftParadizeLocators.btnAddCF);
         type(DraftParadizeLocators.colJudul, title);
         type(DraftParadizeLocators.colLokasiCF, address);
     }
@@ -22,11 +21,19 @@ public class DraftPageParadize extends BasePage {
         click(DraftParadizeLocators.listDirektorat);
         click(DraftParadizeLocators.listSearchDirektorat);
         type(DraftParadizeLocators.listSearchDirektorat, direktorat);
+        waitForSeconds(2);
         pressEnter();
     }
+    public void chooseCostCenter(String costcenter) {
+        click(DraftParadizeLocators.listCostCenter);
+        click(DraftParadizeLocators.listSearchDirektorat);
+        type(DraftParadizeLocators.listSearchDirektorat, costcenter);
+        waitForSeconds(2);
+        pressEnter();
+    }
+
     public void accessCekFisik(){
-        click(DraftParadizeLocators.menuAAT);
-        click(DraftParadizeLocators.subMenuCF);
+        click(DraftParadizeLocators.btnSubmitCF);
     }
     public void nextstep(){
         click(DraftParadizeLocators.btnSAN);

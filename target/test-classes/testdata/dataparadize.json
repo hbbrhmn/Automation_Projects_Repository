@@ -27,19 +27,40 @@
     "assetholderowner": {
       "email": "tkdn17@pertamina.com",
       "password": "Onecode@2025"
+    },
+    "owner1010": {
+      "email": "user.iris1@pertamina.com",
+      "password": "Onecode@2025"
+    },
+    "owner2222": {
+      "email": "user.prime.cnt2@pertamina.com",
+      "password": "Onecode@2025"
+    },
+    "user1010": {
+      "email": "manager.testing2@pertamina.com",
+      "password": "Pertamina#9999"
+    },
+    "user2222": {
+      "email": "user.prime.cnt1@pertamina.com",
+      "password": "Onecode@2025"
     }
   },
   "draftcekfisik": {
     "title": "Automated Draft",
     "location": "BSD",
-    "direktorat": "Keuangan",
-    "assetnumber":"500016232_0",
+    "direktorat": "hulu",
+    "costcenter": "A0000001",
+    "assetnumber": "500016259_0",
     "keterangan": "Testing Keterangan",
-    "filepath": "C:\\\\Users\\\\USER\\\\Downloads\\\\sample_generated.jpg",
+    "filepath": "'/Users/habiburrahmanahmadi/Downloads/Logo Full (1) (3).png'",
     "assetholder": "user.prime2@pertamina.com",
     "keuangan": "creator2.predict@pertamina.com",
-    "hssesafetyandsecurity":"creator3.predict@pertamina.com",
+    "hssesafetyandsecurity": "creator3.predict@pertamina.com",
     "ahli": "tkdn22@pertamina.com",
     "assetholderowner": "tkdn17@pertamina.com"
+  },
+  "approvalremark": {
+    "approveremark": "diterima",
+    "reviseremark": "direvisi"
   }
 }

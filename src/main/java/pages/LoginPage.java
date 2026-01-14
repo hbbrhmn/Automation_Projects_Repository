@@ -10,11 +10,11 @@ public class LoginPage extends BasePage {
         super(driver);
     }
     public void clickLoginPage() {
-        click(LoginLocators.btnLoginPRZ);
+        click(LoginLocators.btnLoginMainMenu);
     }
     public void enterEmail(String email) {
         type(LoginLocators.email, email);
-        waitForSeconds(5);
+        //waitForSeconds(5); //Digunakan untuk mengisi captcha
     }
     public void enterPassword(String password) {
         type(LoginLocators.password, password);

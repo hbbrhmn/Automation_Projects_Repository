@@ -1,7 +1,7 @@
-package steps;
+package steps.paradize;
 import io.cucumber.java.en.*;
 import org.openqa.selenium.WebDriver;
-import pages.DraftPageParadize;
+import pages.paradize.DraftPageParadize;
 import utils.DriverManager;
 import utils.JsonDataReader;
 import utils.TestData;
@@ -22,6 +22,7 @@ public class DraftParadizeSteps {
     public void user_fill_in_draft_header() {
         draftPage.fillHeader(draft.title,draft.location);
         draftPage.chooseDirektorat(draft.direktorat);
+        draftPage.chooseCostCenter(draft.costcenter);
     }
     @When("click next")
     public void clickNext() {

@@ -16,6 +16,7 @@ public class TestData {
         public String title;
         public String location;
         public String direktorat;
+        public String costcenter;
         public String assetnumber;
         public String keterangan;
         public String filepath;

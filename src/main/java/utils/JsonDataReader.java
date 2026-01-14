@@ -41,6 +41,7 @@ public class JsonDataReader {
         return user;
     }
 
+    //Paradize
     //Ambil data draft
     public static TestData.DraftCekFisik getDraftCekFisik() {
         return data.draftcekfisik;
@@ -49,5 +50,6 @@ public class JsonDataReader {
     public static TestData.ApprovalRemark getApprovalRemark(){
         return data.approvalremark;
     }
+
 
 }

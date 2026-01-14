@@ -24,7 +24,7 @@ public class ConfigReader {
         return value.trim();
     }
 
-    // Ambil URL berdasarkan nama environment (contoh: paradize, lcms)
+    // Ambil URL berdasarkan nama environment (contoh: paradize, lcms, pin)
     public static String getEnvUrl(String envName) {
         String key = "url." + envName.toLowerCase();
         return get(key);

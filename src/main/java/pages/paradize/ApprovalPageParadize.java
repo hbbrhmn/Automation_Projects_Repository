@@ -1,7 +1,7 @@
-package pages;
+package pages.paradize;
 
 import base.BasePage;
-import locators.ApprovalParadizeLocators;
+import locators.paradize.ApprovalParadizeLocators;
 import org.openqa.selenium.WebDriver;
 
 

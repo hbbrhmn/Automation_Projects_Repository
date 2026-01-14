@@ -1,18 +1,20 @@
-package locators;
+package locators.paradize;
 
 import org.openqa.selenium.By;
 
 public class DraftParadizeLocators {
 
     //Cek Fisik
-    public static final By menuAAT =By.cssSelector(".fa-solid.fa-database");
-    public static final By subMenuCF = By.xpath("//*[normalize-space(text())='BA Cek Fisik']");
-    public static final By btnAddCF = By.cssSelector(".btn.btn-lg.btn-dark.rounded-0");
+    public static final By btnSubmitCF = By.cssSelector(".fa-solid.fa-circle-plus.fs-2");
+    //-Step 1-
     public static final By colJudul = By.id("titleInput");
     public static final By colLokasiCF = By.id("lokasiCekFisik");
-    public static final By listDirektorat = By.id("select2-ddlDirektorat-container");
+    public static final By listDirektorat = By.cssSelector("#select2-ddlDirektorat-container");
+    public static final By listSearchDirektorat = By.cssSelector("input[aria-label='Search']");
+    public static final By listCostCenter = By.cssSelector("#select2-inputAssetHolderCostCenter-container");
+
+    public static final By btnAddCF = By.cssSelector(".btn.btn-lg.btn-dark.rounded-0");
     public static final By btnSAN = By.cssSelector(".btn.btn-success.rounded");
-    public static final By listSearchDirektorat = By.cssSelector(".select2-search__field");
     public static final By colAssetNumber = By.id("searchAssetNumber");
     public static final By btnCheckItem = By.id("btnCheckItem");
     public static final By colKlasifikasi = By.cssSelector("[aria-labelledby='select2-ddlKlasifikasiAsset-container']");

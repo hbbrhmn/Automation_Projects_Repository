@@ -1,7 +1,7 @@
-package steps;
+package steps.paradize;
 import io.cucumber.java.en.*;
 import org.openqa.selenium.WebDriver;
-import pages.ApprovalPageParadize;
+import pages.paradize.ApprovalPageParadize;
 import utils.DriverManager;
 import utils.JsonDataReader;
 import utils.TestData;

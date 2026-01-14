@@ -1,49 +1,66 @@
 {
   "users": {
     "conceptor": {
-      "email": "user.prime1@pertamina.com",
-      "password": "Onecode@2025"
+      "email": "{Unable to display due to security restrictions}",
+      "password": "{Unable to display due to security restrictions}"
     },
     "coordinator": {
-      "email": "manager.testing2@pertamina.com",
-      "password": "Pertamina#9999"
+      "email": "{Unable to display due to security restrictions}",
+      "password": "{Unable to display due to security restrictions}"
     },
     "assetholder": {
-      "email": "user.prime2@pertamina.com",
-      "password": "Onecode@2025"
+      "email": "{Unable to display due to security restrictions}",
+      "password": "{Unable to display due to security restrictions}"
     },
     "keuangan": {
-      "email": "creator2.predict@pertamina.com",
-      "password": "Onecode@2025"
+      "email": "{Unable to display due to security restrictions}",
+      "password": "{Unable to display due to security restrictions}"
     },
     "hssesafetyandsecurity": {
-      "email": "creator3.predict@pertamina.com",
-      "password": "Onecode@2025"
+      "email": "{Unable to display due to security restrictions}",
+      "password": "{Unable to display due to security restrictions}"
     },
     "ahli": {
-      "email": "tkdn22@pertamina.com",
-      "password": "Onecode@2025"
+      "email": "{Unable to display due to security restrictions}",
+      "password": "{Unable to display due to security restrictions}"
     },
     "assetholderowner": {
-      "email": "tkdn17@pertamina.com",
-      "password": "Onecode@2025"
+      "email": "{Unable to display due to security restrictions}",
+      "password": "{Unable to display due to security restrictions}"
+    },
+    "owner1010": {
+      "email": "{Unable to display due to security restrictions}",
+      "password": "{Unable to display due to security restrictions}"
+    },
+    "owner2222": {
+      "email": "{Unable to display due to security restrictions}",
+      "password": "{Unable to display due to security restrictions}"
+    },
+    "user1010": {
+      "email": "{Unable to display due to security restrictions}",
+      "password": "{Unable to display due to security restrictions}"
+    },
+    "user2222": {
+      "email": "{Unable to display due to security restrictions}",
+      "password": "{Unable to display due to security restrictions}"
     }
   },
   "draftcekfisik": {
     "title": "Automated Draft",
     "location": "BSD",
-    "direktorat": "Keuangan",
-    "assetnumber":"500016232_0",
+    "direktorat": "hulu",
+    "costcenter": "A0000001",
+    "assetnumber": "500016259_0",
     "keterangan": "Testing Keterangan",
-    "filepath": "C:\\\\Users\\\\USER\\\\Downloads\\\\sample_generated.jpg",
-    "assetholder": "user.prime2@pertamina.com",
-    "keuangan": "creator2.predict@pertamina.com",
-    "hssesafetyandsecurity":"creator3.predict@pertamina.com",
-    "ahli": "tkdn22@pertamina.com",
-    "assetholderowner": "tkdn17@pertamina.com"
+    "filepath": "{Unable to display due to security restrictions}",
+    "assetholder": "{Unable to display due to security restrictions}",
+    "keuangan": "{Unable to display due to security restrictions}",
+    "hssesafetyandsecurity": "{Unable to display due to security restrictions}",
+    "ahli": "{Unable to display due to security restrictions}",
+    "assetholderowner": "{Unable to display due to security restrictions}"
   },
   "approvalremark": {
-    "approveremark" : "diterima" ,
-    "reviseremark" : "direvisi"
+    "approveremark": "diterima",
+    "reviseremark": "direvisi"
   }
 }
