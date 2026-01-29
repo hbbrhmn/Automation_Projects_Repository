@@ -29,11 +29,11 @@ step-by step:
 
 ## Menjalankan Script Otomasi
 step-by step:
-1. **Instalasi Dependency**
+## Instalasi Dependency
 mvn clean install
-4. ** Menjalankan runner tertentu **
+## Menjalankan runner tertentu
 mvn -Dtest=TestRunner test
-7. ** Menjalankan berdasarkan tag (opsional) **
+## Menjalankan berdasarkan tag (opsional)
 mvn test -Dcucumber.filter.tags="@smoke"
 
 Cek versi:
