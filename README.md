@@ -62,10 +62,3 @@ AutomationProjectsRepository
 ├─ target/                         # Maven build output (generated)
 └─ pom.xml                         # Maven dependencies & configuration
 
----
-
-## Links
-- **LinkedIn**: [linkedin.com/in/habiburrahman-ahmadi](https://www.linkedin.com/in/habiburrahman-ahmadi/)
-- **Email**: [ahmadiburrahman21@gmail.com](mailto:ahmadiburrahman21@gmail.com)
-- **Portfolio**: [habiburrahman-ahmadi.vercel.app](https://habiburrahman-ahmadi.vercel.app/)
-
