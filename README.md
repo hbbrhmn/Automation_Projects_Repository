@@ -1,4 +1,4 @@
-# AutomationProjectsRepository by Habiburrahman Ahmadi (Quality Assurance Engineer)
+#Test Automation Framework — Java Maven | Selenium 4 | Cucumber BDD (by Habiburrahman Ahmadi)
 
 This repository contains an **automation testing** project built with **Java + Maven** using:
 - **Selenium 4** (via Selenium BOM)
@@ -61,5 +61,3 @@ AutomationProjectsRepository
 │        └─ testdata/              # Test data (json/csv/xlsx/etc.)
 ├─ target/                         # Maven build output (generated)
 └─ pom.xml                         # Maven dependencies & configuration
-
-::contentReference[oaicite:0]{index=0}
