@@ -40,8 +40,17 @@ public abstract class BasePage {
         }
     }
     protected void typeFile(By locator, String filePath) {
-        WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(locator));
-        element.sendKeys(filePath);
+        WebElement input = wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+
+        // kalau input hidden, unhide dulu biar bisa di-sendKeys
+        ((JavascriptExecutor) driver).executeScript(
+                "arguments[0].style.display='block';" +
+                        "arguments[0].style.visibility='visible';" +
+                        "arguments[0].style.opacity=1;",
+                input
+        );
+
+        input.sendKeys(new java.io.File(filePath).getAbsolutePath());
     }
     protected WebElement waitForPresence(By locator) {
         return wait.until(ExpectedConditions.presenceOfElementLocated(locator));

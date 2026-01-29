@@ -9,7 +9,7 @@ public class JsonDataReader {
 
     static {
         try {
-            String resourcePath = "testdata/dataparadize.json"; // relative dari src/test/resources
+            String resourcePath = "testdata/datadriventesting.json"; // relative dari src/test/resources
             ClassLoader cl = Thread.currentThread().getContextClassLoader();
             InputStream is = cl.getResourceAsStream(resourcePath);
 
@@ -49,6 +49,11 @@ public class JsonDataReader {
     //Ambil data remark
     public static TestData.ApprovalRemark getApprovalRemark(){
         return data.approvalremark;
+    }
+
+    //PIN
+    public static TestData.UploadIBI getUploadIBI() {
+        return data.uploadibi;
     }
 
 

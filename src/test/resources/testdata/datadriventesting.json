@@ -1,48 +1,48 @@
 {
   "users": {
     "conceptor": {
-      "email": "user.prime1@pertamina.com",
-      "password": "Onecode@2025"
+      "email": "{Unable to display due to security restrictions}",
+      "password": "{Unable to display due to security restrictions}"
     },
     "coordinator": {
-      "email": "manager.testing2@pertamina.com",
-      "password": "Pertamina#9999"
+      "email": "{Unable to display due to security restrictions}",
+      "password": "{Unable to display due to security restrictions}"
     },
     "assetholder": {
-      "email": "user.prime2@pertamina.com",
-      "password": "Onecode@2025"
+      "email": "{Unable to display due to security restrictions}",
+      "password": "{Unable to display due to security restrictions}"
     },
     "keuangan": {
-      "email": "creator2.predict@pertamina.com",
-      "password": "Onecode@2025"
+      "email": "{Unable to display due to security restrictions}",
+      "password": "{Unable to display due to security restrictions}"
     },
     "hssesafetyandsecurity": {
-      "email": "creator3.predict@pertamina.com",
-      "password": "Onecode@2025"
+      "email": "{Unable to display due to security restrictions}",
+      "password": "{Unable to display due to security restrictions}"
     },
     "ahli": {
-      "email": "tkdn22@pertamina.com",
-      "password": "Onecode@2025"
+      "email": "{Unable to display due to security restrictions}",
+      "password": "{Unable to display due to security restrictions}"
     },
     "assetholderowner": {
-      "email": "tkdn17@pertamina.com",
-      "password": "Onecode@2025"
+      "email": "{Unable to display due to security restrictions}",
+      "password": "{Unable to display due to security restrictions}"
     },
     "owner1010": {
-      "email": "user.iris1@pertamina.com",
-      "password": "Onecode@2025"
+      "email": "{Unable to display due to security restrictions}",
+      "password": "{Unable to display due to security restrictions}"
     },
     "owner2222": {
-      "email": "user.prime.cnt2@pertamina.com",
-      "password": "Onecode@2025"
+      "email": "{Unable to display due to security restrictions}",
+      "password": "{Unable to display due to security restrictions}"
     },
     "user1010": {
-      "email": "manager.testing2@pertamina.com",
-      "password": "Pertamina#9999"
+      "email": "{Unable to display due to security restrictions}",
+      "password": "{Unable to display due to security restrictions}"
     },
     "user2222": {
-      "email": "user.prime.cnt1@pertamina.com",
-      "password": "Onecode@2025"
+      "email": "{Unable to display due to security restrictions}",
+      "password": "{Unable to display due to security restrictions}"
     }
   },
   "draftcekfisik": {
@@ -52,7 +52,7 @@
     "costcenter": "A0000001",
     "assetnumber": "500016259_0",
     "keterangan": "Testing Keterangan",
-    "filepath": "'/Users/habiburrahmanahmadi/Downloads/Logo Full (1) (3).png'",
+    "filepath": "/Users/habiburrahmanahmadi/Downloads/Logo Full (1) (3).png",
     "assetholder": "user.prime2@pertamina.com",
     "keuangan": "creator2.predict@pertamina.com",
     "hssesafetyandsecurity": "creator3.predict@pertamina.com",
@@ -64,6 +64,14 @@
     "reviseremark": "direvisi"
   },
   "uploadibi": {
-
+    "titleIBI" : "Automated Document",
+    "descIBI" : "Description Document",
+    "authors" : "Iris 1",
+    "countries" : "Brazil",
+    "stream" : "Gas",
+    "tos" : "Joint Development Study",
+    "entity": "Patra Niaga",
+    "confidentiality": "Not Confidential",
+    "pathfile": "/Users/habiburrahmanahmadi/Downloads/sample.pdf"
   }
 }

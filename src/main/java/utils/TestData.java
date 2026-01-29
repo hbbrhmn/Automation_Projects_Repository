@@ -30,8 +30,21 @@ public class TestData {
         public String approveremark;
         public String reviseremark;
     }
-
     public Map<String, User> users; // <--- menyimpan user berdasarkan role
     public DraftCekFisik draftcekfisik;
     public ApprovalRemark approvalremark;
+
+    public static class UploadIBI
+    {
+        public String titleIBI;
+        public String descIBI;
+        public String authors;
+        public String countries;
+        public String stream;
+        public String tos;
+        public String entity;
+        public String confidentiality;
+        public String pathfile;
+    }
+    public UploadIBI uploadibi;
 }

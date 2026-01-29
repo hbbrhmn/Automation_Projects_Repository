@@ -6,4 +6,4 @@ Feature: Upload Document IBI
 
   Scenario: Authorize Edit Document Base On Company
     When access menu international business intelligence
-    Then 
+    Then check visibility button edit on document "Authorize Edit Delete"
