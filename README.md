@@ -1,4 +1,4 @@
-#Test Automation Framework — Java Maven | Selenium 4 | Cucumber BDD (by Habiburrahman Ahmadi)
+# Test Automation Framework — Java Maven | Selenium 4 | Cucumber BDD (by Habiburrahman Ahmadi)
 
 This repository contains an **automation testing** project built with **Java + Maven** using:
 - **Selenium 4** (via Selenium BOM)
@@ -61,3 +61,11 @@ AutomationProjectsRepository
 │        └─ testdata/              # Test data (json/csv/xlsx/etc.)
 ├─ target/                         # Maven build output (generated)
 └─ pom.xml                         # Maven dependencies & configuration
+
+---
+
+## Links
+- **LinkedIn**: [linkedin.com/in/habiburrahman-ahmadi](https://www.linkedin.com/in/habiburrahman-ahmadi/)
+- **Email**: [ahmadiburrahman21@gmail.com](mailto:ahmadiburrahman21@gmail.com)
+- **Portfolio**: [habiburrahman-ahmadi.vercel.app](https://habiburrahman-ahmadi.vercel.app/)
+
