@@ -25,15 +25,15 @@ step-by step:
 1. **Fork repo ini**
 2. **Buat branch fitur: feature/nama-fitur**
 3. **Commit perubahan**
-4. **Buat Pull Request**=
+4. **Buat Pull Request**
 
 ## Menjalankan Script Otomasi
 step-by step:
 1. **Instalasi Dependency**
 mvn clean install
-2. ** Menjalankan runner tertentu **
+4. ** Menjalankan runner tertentu **
 mvn -Dtest=TestRunner test
-3. ** Menjalankan berdasarkan tag (opsional) **
+7. ** Menjalankan berdasarkan tag (opsional) **
 mvn test -Dcucumber.filter.tags="@smoke"
 
 Cek versi:
