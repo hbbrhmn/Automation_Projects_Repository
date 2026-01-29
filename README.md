@@ -1,4 +1,4 @@
-# AutomationProjectsRepository
+# AutomationProjectsRepository by Habiburrahman Ahmadi (Quality Assurance Engineer)
 
 Repository ini berisi project **automation testing** berbasis **Java + Maven** menggunakan:
 - **Selenium 4** (via Selenium BOM)
@@ -20,7 +20,47 @@ Pastikan sudah ter-install:
 - **Maven**
 - Browser yang ingin dipakai (Chrome/Firefox/Edge)
 
+## Kontribusi
+step-by step:
+1. **Fork repo ini**
+2. **Buat branch fitur: feature/nama-fitur**
+3. **Commit perubahan**
+4. **Buat Pull Request**=
+
+## Menjalankan Script Otomasi
+step-by step:
+1. **Instalasi Dependency**
+mvn clean install
+2. ** Menjalankan runner tertentu **
+mvn -Dtest=TestRunner test
+3. ** Menjalankan berdasarkan tag (opsional) **
+mvn test -Dcucumber.filter.tags="@smoke"
+
 Cek versi:
 ```bash
 java -version
 mvn -version
+
+Struktur Project
+
+AutomationProjectsRepository
+├─ .idea/                          # Konfigurasi IntelliJ IDEA (lokal)
+├─ src/
+│  ├─ main/
+│  │  └─ java/
+│  │     ├─ base/                  # Base class (driver init/base page, dsb)
+│  │     ├─ locators/              # Kumpulan locator selector (By/XPath/CSS)
+│  │     ├─ pages/                 # Page Object Model (POM)
+│  │     └─ utils/                 # Helper/utility (config reader, wait, dll)
+│  └─ test/
+│     ├─ java/
+│     │  ├─ hooks/                 # Cucumber hooks (Before/After, setup/teardown)
+│     │  ├─ runner/                # Cucumber runner (JUnit)
+│     │  └─ steps/                 # Step definitions (Given/When/Then)
+│     └─ resources/
+│        ├─ config/                # File konfigurasi (env, baseUrl, browser, dll)
+│        ├─ features/              # File .feature (Gherkin)
+│        └─ testdata/              # Data test (json/csv/xlsx/dll)
+├─ target/                         # Output build Maven (generated)
+└─ pom.xml                         # Maven dependencies & configuration
+
