@@ -27,8 +27,6 @@ step-by step:
 3. **Commit perubahan**
 4. **Buat Pull Request**
 
-## Menjalankan Script Otomasi
-step-by step:
 ## Instalasi Dependency
 mvn clean install
 ## Menjalankan runner tertentu
