@@ -56,5 +56,8 @@ public class JsonDataReader {
         return data.uploadibi;
     }
 
+    //iMeals
+    public static TestData.OrderConsumption getOrderConsumption(){return data.orderconsumption;}
+
 
 }

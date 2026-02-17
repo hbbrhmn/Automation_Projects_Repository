@@ -1,77 +1,104 @@
 {
   "users": {
     "conceptor": {
-      "email": "{Unable to display due to security restrictions}",
-      "password": "{Unable to display due to security restrictions}"
+      "email": "{put your data driven testing here}",
+      "password": "{put your data driven testing here}"
     },
     "coordinator": {
-      "email": "{Unable to display due to security restrictions}",
-      "password": "{Unable to display due to security restrictions}"
+      "email": "{put your data driven testing here}",
+      "password": "{put your data driven testing here}"
     },
     "assetholder": {
-      "email": "{Unable to display due to security restrictions}",
-      "password": "{Unable to display due to security restrictions}"
+      "email": "{put your data driven testing here}",
+      "password": "{put your data driven testing here}"
     },
     "keuangan": {
-      "email": "{Unable to display due to security restrictions}",
-      "password": "{Unable to display due to security restrictions}"
+      "email": "{put your data driven testing here}",
+      "password": "{put your data driven testing here}"
     },
     "hssesafetyandsecurity": {
-      "email": "{Unable to display due to security restrictions}",
-      "password": "{Unable to display due to security restrictions}"
+      "email": "{put your data driven testing here}",
+      "password": "{put your data driven testing here}"
     },
     "ahli": {
-      "email": "{Unable to display due to security restrictions}",
-      "password": "{Unable to display due to security restrictions}"
+      "email": "{put your data driven testing here}",
+      "password": "{put your data driven testing here}"
     },
     "assetholderowner": {
-      "email": "{Unable to display due to security restrictions}",
-      "password": "{Unable to display due to security restrictions}"
+      "email": "{put your data driven testing here}",
+      "password": "{put your data driven testing here}"
     },
     "owner1010": {
-      "email": "{Unable to display due to security restrictions}",
-      "password": "{Unable to display due to security restrictions}"
+      "email": "{put your data driven testing here}",
+      "password": "{put your data driven testing here}"
     },
     "owner2222": {
-      "email": "{Unable to display due to security restrictions}",
-      "password": "{Unable to display due to security restrictions}"
+      "email": "{put your data driven testing here}",
+      "password": "{put your data driven testing here}"
     },
     "user1010": {
-      "email": "{Unable to display due to security restrictions}",
-      "password": "{Unable to display due to security restrictions}"
+      "email": "{put your data driven testing here}",
+      "password": "{put your data driven testing here}"
     },
     "user2222": {
-      "email": "{Unable to display due to security restrictions}",
-      "password": "{Unable to display due to security restrictions}"
+      "email": "{put your data driven testing here}",
+      "password": "{put your data driven testing here}"
+    },
+    "requestororganic": {
+      "email": "{put your data driven testing here}",
+      "password": "{put your data driven testing here}"
+    },
+    "requestormitrakerja": {
+      "email": "{put your data driven testing here}",
+      "password": "{put your data driven testing here}"
     }
   },
   "draftcekfisik": {
-    "title": "Automated Draft",
-    "location": "BSD",
-    "direktorat": "hulu",
-    "costcenter": "A0000001",
-    "assetnumber": "500016259_0",
-    "keterangan": "Testing Keterangan",
-    "filepath": "/Users/habiburrahmanahmadi/Downloads/Logo Full (1) (3).png",
-    "assetholder": "user.prime2@pertamina.com",
-    "keuangan": "creator2.predict@pertamina.com",
-    "hssesafetyandsecurity": "creator3.predict@pertamina.com",
-    "ahli": "tkdn22@pertamina.com",
-    "assetholderowner": "tkdn17@pertamina.com"
+    "title": "{put your data driven testing here}",
+    "location": "{put your data driven testing here}",
+    "direktorat": "{put your data driven testing here}",
+    "costcenter": "{put your data driven testing here}",
+    "assetnumber": "{put your data driven testing here}",
+    "keterangan": "{put your data driven testing here}",
+    "filepath": "{put your data driven testing here}",
+    "assetholder": "{put your data driven testing here}",
+    "keuangan": "{put your data driven testing here}",
+    "hssesafetyandsecurity": "{put your data driven testing here}",
+    "ahli": "{put your data driven testing here}",
+    "assetholderowner": "{put your data driven testing here}"
   },
   "approvalremark": {
-    "approveremark": "diterima",
-    "reviseremark": "direvisi"
+    "approveremark": "{put your data driven testing here}",
+    "reviseremark": "{put your data driven testing here}"
   },
   "uploadibi": {
-    "titleIBI" : "Automated Document",
-    "descIBI" : "Description Document",
-    "authors" : "Iris 1",
-    "countries" : "Brazil",
-    "stream" : "Gas",
-    "tos" : "Joint Development Study",
-    "entity": "Patra Niaga",
-    "confidentiality": "Not Confidential",
-    "pathfile": "/Users/habiburrahmanahmadi/Downloads/sample.pdf"
+    "titleIBI" : "{put your data driven testing here}",
+    "descIBI" : "{put your data driven testing here}",
+    "authors" : "{put your data driven testing here}",
+    "countries" : "{put your data driven testing here}",
+    "stream" : "{put your data driven testing here}",
+    "tos" : "{put your data driven testing here}",
+    "entity": "{put your data driven testing here}",
+    "confidentiality": "{put your data driven testing here}",
+    "pathfile": "{put your data driven testing here}"
+  },
+  "orderconsumption": {
+    "contactNumber" : "{put your data driven testing here}",
+    "namaKegiatan" : "{put your data driven testing here}",
+    "jumlahHari" : "{put your data driven testing here}",
+    "jumlahPeserta" : "{put your data driven testing here}",
+    "tanggalKegiatan": "{put your data driven testing here}",
+    "jamAwal": "{put your data driven testing here}",
+    "jamAkhir": "{put your data driven testing here}",
+    "jenisKegiatan": "{put your data driven testing here}",
+    "pesertaKegiatan": "{put your data driven testing here}",
+    "levelJabatan": "{put your data driven testing here}",
+    "gedung": "{put your data driven testing here}",
+    "lantai": "{put your data driven testing here}",
+    "ruangan": "{put your data driven testing here}",
+    "jenisKonsumsi": "{put your data driven testing here}",
+    "jamPengantaran": "{put your data driven testing here}",
+    "menuKonsumsi": "{put your data driven testing here}",
+    "jumlahMenu": "{put your data driven testing here}"
   }
 }

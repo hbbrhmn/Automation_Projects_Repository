@@ -47,4 +47,27 @@ public class TestData {
         public String pathfile;
     }
     public UploadIBI uploadibi;
+
+
+    public static class OrderConsumption
+    {
+        public String contactNumber;
+        public String namaKegiatan;
+        public String jumlahHari;
+        public String jumlahPeserta;
+        public String tanggalKegiatan;
+        public String jamAwal;
+        public String jamAkhir;
+        public String jenisKegiatan;
+        public String pesertaKegiatan;
+        public String levelJabatan;
+        public String gedung;
+        public String lantai;
+        public String ruangan;
+        public String jenisKonsumsi;
+        public String menuKonsumsi;
+        public String jumlahMenu;
+        public String jamPengantaran;
+    }
+    public OrderConsumption orderconsumption;
 }
