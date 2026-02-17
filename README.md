@@ -1,12 +1,12 @@
-# AutomationProjectsRepository by Habiburrahman Ahmadi (Quality Assurance Engineer)
+# Test Automation Framework — Java Maven | Selenium 4 | Cucumber BDD (by Habiburrahman Ahmadi)
 
-Repository ini berisi project **automation testing** berbasis **Java + Maven** menggunakan:
+This repository contains an **automation testing** project built with **Java + Maven** using:
 - **Selenium 4** (via Selenium BOM)
 - **Cucumber (BDD)**
 - **JUnit**
 - **WebDriverManager** (auto-manage driver browser)
 
-## Tech Stack & Versi
+## Tech Stack & Versions
 - **Java**: 11
 - **Maven**: 3.x
 - **Selenium**: `4.25.0` (managed by `selenium-bom`)
@@ -14,51 +14,51 @@ Repository ini berisi project **automation testing** berbasis **Java + Maven** m
 - **WebDriverManager**: `5.6.2`
 - **Test Runner**: `cucumber-junit`
 
-## Prasyarat
-Pastikan sudah ter-install:
+##  Prerequisites
+Make sure you have installed:
 - **JDK 11**
 - **Maven**
-- Browser yang ingin dipakai (Chrome/Firefox/Edge)
+- **A supported browser (Chrome/Firefox/Edge)**
 
-## Kontribusi
+## Contribution
 step-by step:
-1. **Fork repo ini**
-2. **Buat branch fitur: feature/nama-fitur**
-3. **Commit perubahan**
-4. **Buat Pull Request**
+1. **Fork this repository**
+2. **Create a feature branch: feature/nama-fitur**
+3. **Commit your changes**
+4. **Create a Pull Request**
 
-## Instalasi Dependency
+## Install Dependencies
 mvn clean install
-## Menjalankan runner tertentu
+## Run a specific runner
 mvn -Dtest=TestRunner test
-## Menjalankan berdasarkan tag (opsional)
+## Run by tag (optional)
 mvn test -Dcucumber.filter.tags="@smoke"
 
-Cek versi:
+Check installed versions:
 ```bash
 java -version
 mvn -version
 
-Struktur Project
+Project Structure
 
 AutomationProjectsRepository
-├─ .idea/                          # Konfigurasi IntelliJ IDEA (lokal)
+├─ .idea/                          # IntelliJ IDEA config (local)
 ├─ src/
 │  ├─ main/
 │  │  └─ java/
-│  │     ├─ base/                  # Base class (driver init/base page, dsb)
-│  │     ├─ locators/              # Kumpulan locator selector (By/XPath/CSS)
+│  │     ├─ base/                  # Base classes (driver init/base page, etc.)
+│  │     ├─ locators/              # Locator selectors (By/XPath/CSS)
 │  │     ├─ pages/                 # Page Object Model (POM)
-│  │     └─ utils/                 # Helper/utility (config reader, wait, dll)
+│  │     └─ utils/                 # Helpers/utilities (config reader, waits, etc.)
 │  └─ test/
 │     ├─ java/
 │     │  ├─ hooks/                 # Cucumber hooks (Before/After, setup/teardown)
 │     │  ├─ runner/                # Cucumber runner (JUnit)
 │     │  └─ steps/                 # Step definitions (Given/When/Then)
 │     └─ resources/
-│        ├─ config/                # File konfigurasi (env, baseUrl, browser, dll)
-│        ├─ features/              # File .feature (Gherkin)
-│        └─ testdata/              # Data test (json/csv/xlsx/dll)
-├─ target/                         # Output build Maven (generated)
+│        ├─ config/                # Configuration files (env, baseUrl, browser, etc.)
+│        ├─ features/              # .feature files (Gherkin)
+│        └─ testdata/              # Test data (json/csv/xlsx/etc.)
+├─ target/                         # Maven build output (generated)
 └─ pom.xml                         # Maven dependencies & configuration
 
