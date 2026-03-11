@@ -91,6 +91,12 @@ public class OrderSteps {
     public void userChooseJenisKonsumsi() {
         newOrder.addJenisKonsumsi(order.jenisKonsumsi);
     }
+
+    @Then("user choose jenis konsumsi kedua")
+    public void userChooseJenisKonsumsiKedua() {
+        newOrder.addJenisKonsumsi(order.jenisKonsumsiKedua);
+    }
+
     @Then("user fill column pengantaran")
     public void userFillColumnPengantaran() {
         newOrder.fillJamPengantaran(order.jamPengantaran);
@@ -107,6 +113,13 @@ public class OrderSteps {
     public void userChooseMenu() {
         newOrder.addMenuKonsumsi(order.menuKonsumsi);
     }
+
+    @Then("user choose menu kedua")
+    public void userChooseMenuKedua() {
+        newOrder.addMenuKonsumsi(order.menuKonsumsiKedua);
+
+    }
+
     @Then("user fill column jumlah menu")
     public void userFillColumnJumlahMenu() {
         newOrder.fillJumlahMenu(order.jumlahMenu);
@@ -136,5 +149,9 @@ public class OrderSteps {
     @And("user click tombol ok")
     public void userClickTombolOk() {
         newOrder.clickBtnOK();
+    }
+    @Then("user fill column pengantaran kedua")
+    public void userFillColumnPengantaranKedua() {
+        newOrder.fillJamPengantaranKedua();
     }
 }

@@ -58,6 +58,7 @@ public class JsonDataReader {
 
     //iMeals
     public static TestData.OrderConsumption getOrderConsumption(){return data.orderconsumption;}
+    public static TestData.TopUpSaldo getTopUpSaldo(){return data.topupsaldo;}
 
 
 }

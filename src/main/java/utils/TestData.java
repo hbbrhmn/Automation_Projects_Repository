@@ -65,9 +65,20 @@ public class TestData {
         public String lantai;
         public String ruangan;
         public String jenisKonsumsi;
+        public String jenisKonsumsiKedua;
         public String menuKonsumsi;
+        public String menuKonsumsiKedua;
         public String jumlahMenu;
         public String jamPengantaran;
     }
     public OrderConsumption orderconsumption;
+
+    public static class TopUpSaldo
+    {
+        public String kategoriSaldo;
+        public String directoryFile;
+    }
+    public TopUpSaldo topupsaldo;
+
+
 }

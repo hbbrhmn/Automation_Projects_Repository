@@ -7,10 +7,9 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {
-                "src/test/resources/features/imeals/OrderConsumptions.feature"
+                "src/test/resources/features/imeals/ApprovalRequest.feature"
         },
         glue = {"steps", "hooks"},
-        tags = "@regression",
         plugin = {
                 "pretty",
                 "html:target/cucumber-reports/report.html",
@@ -20,7 +19,5 @@ import org.junit.runner.RunWith;
         publish = false
 )
 
-public class ImealsOrderConsumptions {
-
+public class ImealsApproveRequestRunner {
 }
-

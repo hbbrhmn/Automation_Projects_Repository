@@ -91,6 +91,10 @@ public class OrderPage extends BasePage {
         type(OrderLocators.colTime, JamPengantaran);
         pressEnter();
     }
+    public void fillJamPengantaranKedua(){
+        click(OrderLocators.colJamPengantaran);
+        pressEnter();
+    }
     public void clickBtnSubmitJenis(){
         click(OrderLocators.btnSubmitJenis);
         waitForSeconds(2);

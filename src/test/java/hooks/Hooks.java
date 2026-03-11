@@ -10,8 +10,8 @@ public class Hooks {
         DriverManager.initializeDriver(); // membuka browser
     }
 
-//    @After
-//    public void tearDown() {
-//        DriverManager.quitDriver(); // menutup browser
-//    }
+    @After
+    public void tearDown() {
+        DriverManager.quitDriver(); // menutup browser
+    }
 }
