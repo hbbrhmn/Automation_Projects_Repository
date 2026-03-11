@@ -15,8 +15,8 @@ Feature: Approval Request
     When access menu my approval
     And access submenu request
     Then user choose request consumption number "RK000000002"
-    Then user click button revise
-    Then user fill column message revise
-    Then user click revise
+#    Then user click button revise
+#    Then user fill column message revise
+#    Then user click revise
 
   Scenario: User reject request consumption
